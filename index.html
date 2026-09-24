@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Informativa sulla privacy — SantOggi</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fdfaf6;
+    --fg: #2a2420;
+    --muted: #6b5f54;
+    --accent: #b5651d;
+    --card: #ffffff;
+    --border: #e8ddd0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1815;
+      --fg: #f1ece5;
+      --muted: #b8ab9c;
+      --accent: #e0a458;
+      --card: #262019;
+      --border: #3a322a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 32px 20px 64px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin-bottom: 32px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 36px;
+    color: var(--accent);
+  }
+  p, li { color: var(--fg); }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 10px; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 18px 20px;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Informativa sulla privacy — SantOggi</h1>
+  <p class="updated">Ultimo aggiornamento: 24 settembre 2026</p>
+
+  <h2>Titolare del trattamento</h2>
+  <p>SantOggi è sviluppata da Moxà Design. Per qualsiasi richiesta relativa alla privacy è possibile scrivere a: <a href="mailto:info@moxa-design.it">info@moxa-design.it</a>.</p>
+
+  <h2>Dati raccolti</h2>
+  <p>SantOggi è progettata per funzionare offline il più possibile e non richiede la creazione di un account. Nello specifico:</p>
+  <ul>
+    <li><strong>Nessun dato personale identificativo</strong> viene raccolto direttamente dall'app (nome, email, numero di telefono, contatti).</li>
+    <li><strong>Preferenze locali</strong>: orario della notifica giornaliera, tema chiaro/scuro e stato dell'acquisto "Rimuovi pubblicità" sono salvati esclusivamente sul dispositivo dell'utente (tramite DataStore) e non vengono trasmessi a server dell'autore dell'app.</li>
+    <li><strong>Pubblicità (Google AdMob)</strong>: nella versione gratuita, l'app mostra banner pubblicitari tramite Google AdMob. AdMob può raccogliere identificatori pubblicitari del dispositivo e altri dati secondo l'informativa privacy di Google, per mostrare annunci pertinenti. Consulta la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy di Google</a> per maggiori dettagli.</li>
+    <li><strong>Acquisti in-app (Google Play Billing)</strong>: l'acquisto "Rimuovi pubblicità" è gestito interamente da Google Play; SantOggi non ha accesso a dati di pagamento (numeri di carta, ecc.), che restano gestiti da Google.</li>
+    <li><strong>Notifiche</strong>: la notifica giornaliera con il santo del giorno viene generata e mostrata interamente sul dispositivo, senza inviare né ricevere dati da un server esterno.</li>
+  </ul>
+
+  <h2>Permessi richiesti</h2>
+  <ul>
+    <li><strong>Notifiche (POST_NOTIFICATIONS)</strong>: necessario per mostrare la notifica giornaliera del santo del giorno.</li>
+    <li><strong>Avvio automatico al riavvio (RECEIVE_BOOT_COMPLETED)</strong>: usato esclusivamente per ripristinare la programmazione della notifica giornaliera dopo il riavvio del dispositivo.</li>
+    <li><strong>Accesso a Internet</strong>: necessario per il caricamento dei banner pubblicitari e la verifica degli acquisti in-app.</li>
+  </ul>
+
+  <h2>Condivisione dei dati con terze parti</h2>
+  <p>I soli soggetti terzi coinvolti sono:</p>
+  <ul>
+    <li><strong>Google AdMob</strong> (pubblicità)</li>
+    <li><strong>Google Play Billing</strong> (acquisti in-app)</li>
+  </ul>
+  <p>SantOggi non vende né condivide dati con altri soggetti terzi per finalità di marketing proprie.</p>
+
+  <h2>Diritti dell'utente</h2>
+  <p>Poiché l'app non raccoglie dati personali identificativi propri e non richiede un account, non esistono profili utente lato autore da richiedere, modificare o cancellare. Per la gestione dei dati raccolti da Google (AdMob/Play Billing) è possibile fare riferimento alle impostazioni privacy del proprio account Google e del dispositivo Android.</p>
+
+  <h2>Minori</h2>
+  <p>L'app non è specificamente rivolta a un pubblico di minori di 13 anni e non raccoglie consapevolmente dati da minori.</p>
+
+  <h2>Modifiche a questa informativa</h2>
+  <p>Questa informativa può essere aggiornata in futuro. Eventuali modifiche sostanziali saranno riflesse aggiornando la data in cima al documento e, se necessario, la relativa scheda sul Play Store.</p>
+
+  <div class="card">
+    <p style="margin:0; color:var(--muted); font-size:0.9rem;">SantOggi — l'app del santo del giorno per l'Italia. Sviluppata da Moxà Design.</p>
+  </div>
+</main>
+</body>
+</html>
